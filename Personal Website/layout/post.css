@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-1:"Noto Sans KR", sans-serif;
+    --font-2: "Montserrat", sans-serif;
+    --font-3:"Poppins", sans-serif;
+
+    --primary-color:#fff;
+    --second-color:#000;
+    --color-1:#4D869C;
+    --color-2:#7AB2B2;
+    --color-3:#EEF7FF;
+    --color-4:#CDE8E5;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--font-3);
+}
+.head-post{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.form-1{
+    display: grid;
+    margin-top: 1%;
+    width: 70%;
+    border: 1px solid black;
+    padding: 24px;
+    border-radius: 4px;
+    margin-left: 9%;
+}
+.inpt-profile{
+    padding: 8px;
+    font-family: var(--font-3);
+}
+.text-profile{
+    resize: none;
+    font-family: var(--font-3);
+    font-size: 16px;
+    padding: 8px;
+}
+.btn-profile{
+    margin-top: 1%;
+    padding: 8px;
+    background-color: var(--color-1);
+    color: var(--color-3);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--font-3);
+}
+span{
+    color: var(--color-1);
+}

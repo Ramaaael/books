@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="layout/dashboard.css"> -->
+</head>
+<body>
+<main class="main">
+    <form action="profile.php" method="POST" class="form-3">
+        <h2 class="tag-form2">Fill the Bookshelf</h2>
+        <div class="form-isi">
+            <label for="title">Judul</label>
+            <input type="text" name="title" class="input" required>
+            <label for="author">Penulis</label>
+            <input type="text" name="author" class="input" required>
+            <label for="date">Tanggal</label>
+            <input type="date" name="date" class="input" required>
+        </div>
+        <div class="inline-btn">
+            <label for="is_complete">Complate</label>
+            <input type="checkbox" name="is_complete">
+        </div>
+        <center><button type="submit" class="btn-fill">add books to the Bookshelf</button></center>
+    </form>
+</main>
+</body>
+</html>
